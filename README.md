@@ -26,8 +26,6 @@ The intelligence of the monitoring system lies in its Z-Score thresholds, which 
 
 The visual analysis of the Z-Score distribution was fundamental in validating the failure threshold. The histogram below demonstrates a clear separation between normal operations and critical anomalies.
 
-*(Insert the `zscore_distribution.png` image here)*
-
 **Chart Analysis:** The histogram displays a high frequency of events with low Z-Scores, followed by a long, thin "tail" of rare, high Z-Score events. The point where this tail begins visually confirmed that a threshold of **7.0** is the ideal inflection point for identifying significant incidents.
 
 ---
